@@ -622,6 +622,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "at-rule-blockless-newline-after"                  : [
+            "always",
+            {
+                "severity": "error"
+            }
+        ],
         "at-rule-empty-line-before"                        : [
             "always",
             {
