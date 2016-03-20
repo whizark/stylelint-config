@@ -28,7 +28,7 @@ script:
     - node -e "const config = require('@$TRAVIS_REPO_SLUG');"
     - cd "$TRAVIS_BUILD_DIR"
     - |
-        if [ "$TRAVIS_PULL_REQUEST" = 'false' ] && [ "$TRAVIS_BRANCH" = 'master' ] && [ -n "$TRAVIS_TAG" ]; then
+        if [ "$TRAVIS_PULL_REQUEST" = 'false' ] && [ -n "$TRAVIS_TAG" ]; then
             npm test
         fi
 
