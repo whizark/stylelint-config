@@ -1,64 +1,53 @@
 'use strict';
-
 module.exports = {
     "extends"    : [],
     "plugins"    : [],
     "ignoreFiles": [],
     "rules"      : {
-
-        "color-hex-case"      : [
-
+        "color-hex-case"                                   : [
             "lower",
             {
                 "severity": "error"
             }
         ],
-        "color-hex-length"    : [
-
+        "color-hex-length"                                 : [
             "short",
             {
                 "severity": "error"
             }
         ],
-        "color-named"         : [
-
+        "color-named"                                      : [
             "always-where-possible",
             {
                 "severity": "error"
             }
         ],
-        "color-no-hex"        : [
+        "color-no-hex"                                     : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "color-no-invalid-hex": [
+        "color-no-invalid-hex"                             : [
             true,
             {
                 "severity": "error"
             }
         ],
-
-        "font-family-name-quotes": [
-
+        "font-family-name-quotes"                          : [
             "single-where-recommended",
             {
                 "severity": "error"
             }
         ],
-
-        "font-weight-notation": [
-
+        "font-weight-notation"                             : [
             "named-where-possible",
             {
                 "ignore"  : [],
                 "severity": "error"
             }
         ],
-
         "function-blacklist"                               : [
-
             null,
             {
                 "severity": "error"
@@ -71,28 +60,24 @@ module.exports = {
             }
         ],
         "function-comma-newline-after"                     : [
-
             "always-multi-line",
             {
                 "severity": "error"
             }
         ],
         "function-comma-newline-before"                    : [
-
             "never-multi-line",
             {
                 "severity": "error"
             }
         ],
         "function-comma-space-after"                       : [
-
             "always",
             {
                 "severity": "error"
             }
         ],
         "function-comma-space-before"                      : [
-
             "never",
             {
                 "severity": "error"
@@ -105,244 +90,209 @@ module.exports = {
             }
         ],
         "function-parentheses-newline-inside"              : [
-
             "never-multi-line",
             {
                 "severity": "error"
             }
         ],
         "function-parentheses-space-inside"                : [
-
             "never-single-line",
             {
                 "severity": "error"
             }
         ],
         "function-url-quotes"                              : [
-
             "none",
             {
                 "severity": "error"
             }
         ],
         "function-whitelist"                               : [
-
             null,
             {
                 "severity": "error"
             }
         ],
         "function-whitespace-after"                        : [
-
             "always",
             {
                 "severity": "error"
             }
         ],
-
-        "number-leading-zero"       : [
-
+        "number-leading-zero"                              : [
             "never",
             {
                 "severity": "error"
             }
         ],
-        "number-max-precision"      : [
-
+        "number-max-precision"                             : [
             5,
             {
                 "severity": "error"
             }
         ],
-        "number-no-trailing-zeros"  : [
+        "number-no-trailing-zeros"                         : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "number-zero-length-no-unit": [
+        "number-zero-length-no-unit"                       : [
             true,
             {
                 "severity": "error"
             }
         ],
-
-        "string-no-newline": [
+        "string-no-newline"                                : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "string-quotes"    : [
+        "string-quotes"                                    : [
             "single",
             {
                 "severity": "error"
             }
         ],
-
-        "time-no-imperceptible": [
+        "time-no-imperceptible"                            : [
             true,
             {
                 "severity": "error"
             }
         ],
-
-        "unit-blacklist": [
-
+        "unit-blacklist"                                   : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "unit-whitelist": [
-
+        "unit-whitelist"                                   : [
             null,
             {
                 "severity": "error"
             }
         ],
-
-        "value-no-vendor-prefix": [
+        "value-no-vendor-prefix"                           : [
             true,
             {
                 "severity": "error"
             }
         ],
-
-        "value-list-comma-newline-after" : [
-
+        "value-list-comma-newline-after"                   : [
             "always-multi-line",
             {
                 "severity": "error"
             }
         ],
-        "value-list-comma-newline-before": [
-
+        "value-list-comma-newline-before"                  : [
             "never-multi-line",
             {
                 "severity": "error"
             }
         ],
-        "value-list-comma-space-after"   : [
-
+        "value-list-comma-space-after"                     : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "value-list-comma-space-before"  : [
-
+        "value-list-comma-space-before"                    : [
             "never",
             {
                 "severity": "error"
             }
         ],
-
-        "custom-property-no-outside-root": [
+        "custom-property-no-outside-root"                  : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "custom-property-pattern"        : [
-
+        "custom-property-pattern"                          : [
             null,
             {
                 "severity": "error"
             }
         ],
-
-        "property-blacklist"       : [
-
+        "property-blacklist"                               : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "property-no-vendor-prefix": [
+        "property-no-vendor-prefix"                        : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "property-unit-blacklist"  : [
-
+        "property-unit-blacklist"                          : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "property-unit-whitelist"  : [
-
+        "property-unit-whitelist"                          : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "property-value-blacklist" : [
-
+        "property-value-blacklist"                         : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "property-value-whitelist" : [
-
+        "property-value-whitelist"                         : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "property-whitelist"       : [
-
+        "property-whitelist"                               : [
             null,
             {
                 "severity": "error"
             }
         ],
-
-        "declaration-bang-space-after"   : [
-
+        "declaration-bang-space-after"                     : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "declaration-bang-space-before"  : [
-
+        "declaration-bang-space-before"                    : [
             "never",
             {
                 "severity": "error"
             }
         ],
-        "declaration-colon-newline-after": [
-
+        "declaration-colon-newline-after"                  : [
             "always-multi-line",
             {
                 "severity": "error"
             }
         ],
-        "declaration-colon-space-after"  : [
-
+        "declaration-colon-space-after"                    : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "declaration-colon-space-before" : [
-
+        "declaration-colon-space-before"                   : [
             "never",
             {
                 "severity": "error"
             }
         ],
-        "declaration-no-important"       : [
+        "declaration-no-important"                         : [
             true,
             {
                 "severity": "warning"
             }
         ],
-
         "declaration-block-no-duplicate-properties"        : [
             true,
             {
@@ -356,265 +306,230 @@ module.exports = {
             }
         ],
         "declaration-block-properties-order"               : [
-
             null,
             {
-
                 "unspecified": "bottomAlphabetical",
                 "severity"   : "error"
             }
         ],
         "declaration-block-semicolon-newline-after"        : [
-
             "always",
             {
                 "severity": "error"
             }
         ],
         "declaration-block-semicolon-newline-before"       : [
-
             "never-multi-line",
             {
                 "severity": "error"
             }
         ],
         "declaration-block-semicolon-space-after"          : [
-
             "always-single-line",
             {
                 "severity": "error"
             }
         ],
         "declaration-block-semicolon-space-before"         : [
-
             "never",
             {
                 "severity": "error"
             }
         ],
         "declaration-block-single-line-max-declarations"   : [
-
             1,
             {
                 "severity": "error"
             }
         ],
         "declaration-block-trailing-semicolon"             : [
-
             "always",
             {
                 "severity": "error"
             }
         ],
-
-        "block-closing-brace-newline-after" : [
-
+        "block-closing-brace-newline-after"                : [
             "always",
             {
                 "ignoreAtRules": [],
                 "severity"     : "error"
             }
         ],
-        "block-closing-brace-newline-before": [
-
+        "block-closing-brace-newline-before"               : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "block-closing-brace-space-after"   : [
-
+        "block-closing-brace-space-after"                  : [
             "always-single-line",
             {
                 "severity": "error"
             }
         ],
-        "block-closing-brace-space-before"  : [
-
+        "block-closing-brace-space-before"                 : [
             "always-single-line",
             {
                 "severity": "error"
             }
         ],
-        "block-no-empty"                    : [
+        "block-no-empty"                                   : [
             true,
             {
                 "severity": "warning"
             }
         ],
-        "block-no-single-line"              : [
+        "block-no-single-line"                             : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "block-opening-brace-newline-after" : [
-
+        "block-opening-brace-newline-after"                : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "block-opening-brace-newline-before": [
-
+        "block-opening-brace-newline-before"               : [
             "always",
             {
                 "ignoreAtRules": [],
                 "severity"     : "error"
             }
         ],
-        "block-opening-brace-space-after"   : [
-
+        "block-opening-brace-space-after"                  : [
             "always-single-line",
             {
                 "severity": "error"
             }
         ],
-        "block-opening-brace-space-before"  : [
-
+        "block-opening-brace-space-before"                 : [
             "always-single-line",
             {
                 "ignoreAtRules": [],
                 "severity"     : "error"
             }
         ],
-
-        "selector-class-pattern"                : [
-
+        "selector-class-pattern"                           : [
             "^[a-z][-_a-z0-9]*$",
             {
-
                 "resolveNestedSelectors": true,
                 "severity"              : "error"
             }
         ],
-        "selector-combinator-space-after"       : [
-
+        "selector-combinator-space-after"                  : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "selector-combinator-space-before"      : [
-
+        "selector-combinator-space-before"                 : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "selector-id-pattern"                   : [
-
+        "selector-id-pattern"                              : [
             "^[a-z][-_a-z0-9]*$",
             {
                 "severity": "error"
             }
         ],
-        "selector-max-specificity"              : [
-
+        "selector-max-specificity"                         : [
             "0,2,0",
             {
                 "severity": "warning"
             }
         ],
-        "selector-no-attribute"                 : [
+        "selector-no-attribute"                            : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "selector-no-combinator"                : [
+        "selector-no-combinator"                           : [
             null,
             {
                 "severity": "error"
             }
         ],
-        "selector-no-id"                        : [
+        "selector-no-id"                                   : [
             true,
             {
                 "severity": "warning"
             }
         ],
-        "selector-no-type"                      : [
+        "selector-no-type"                                 : [
             true,
             {
                 "ignore"  : [
                     "descendant"
-
                 ],
                 "severity": "error"
             }
         ],
-        "selector-no-universal"                 : [
+        "selector-no-universal"                            : [
             true,
             {
                 "severity": "warning"
             }
         ],
-        "selector-no-vendor-prefix"             : [
+        "selector-no-vendor-prefix"                        : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "selector-pseudo-element-colon-notation": [
-
+        "selector-pseudo-element-colon-notation"           : [
             "double",
             {
                 "severity": "error"
             }
         ],
-        "selector-root-no-composition"          : [
+        "selector-root-no-composition"                     : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "selector-type-case"                    : [
-
+        "selector-type-case"                               : [
             "lower",
             {
                 "severity": "error"
             }
         ],
-
-        "selector-list-comma-newline-after" : [
-
+        "selector-list-comma-newline-after"                : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "selector-list-comma-newline-before": [
-
+        "selector-list-comma-newline-before"               : [
             "never-multi-line",
             {
                 "severity": "error"
             }
         ],
-        "selector-list-comma-space-after"   : [
-
+        "selector-list-comma-space-after"                  : [
             "always-single-line",
             {
                 "severity": "error"
             }
         ],
-        "selector-list-comma-space-before"  : [
-
+        "selector-list-comma-space-before"                 : [
             "never",
             {
                 "severity": "error"
             }
         ],
-
-        "root-no-standard-properties": [
+        "root-no-standard-properties"                      : [
             true,
             {
                 "severity": "error"
             }
         ],
-
-        "rule-nested-empty-line-before"    : [
-
+        "rule-nested-empty-line-before"                    : [
             "always",
             {
                 "except"  : [
@@ -626,8 +541,7 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "rule-non-nested-empty-line-before": [
-
+        "rule-non-nested-empty-line-before"                : [
             "always-multi-line",
             {
                 "ignore"  : [
@@ -636,118 +550,98 @@ module.exports = {
                 "severity": "error"
             }
         ],
-
-        "media-feature-colon-space-after"          : [
-
+        "media-feature-colon-space-after"                  : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "media-feature-colon-space-before"         : [
-
+        "media-feature-colon-space-before"                 : [
             "never",
             {
                 "severity": "error"
             }
         ],
-        "media-feature-name-no-vendor-prefix"      : [
+        "media-feature-name-no-vendor-prefix"              : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "media-feature-no-missing-punctuation"     : [
+        "media-feature-no-missing-punctuation"             : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "media-feature-range-operator-space-after" : [
-
+        "media-feature-range-operator-space-after"         : [
             "always",
             {
                 "severity": "error"
             }
         ],
-        "media-feature-range-operator-space-before": [
-
+        "media-feature-range-operator-space-before"        : [
             "always",
             {
                 "severity": "error"
             }
         ],
-
-        "custom-media-pattern": [
-
+        "custom-media-pattern"                             : [
             null,
             {
                 "severity": "error"
             }
         ],
-
-        "media-query-parentheses-space-inside": [
-
+        "media-query-parentheses-space-inside"             : [
             "never",
             {
                 "severity": "error"
             }
         ],
-
-        "media-query-list-comma-newline-after" : [
-
+        "media-query-list-comma-newline-after"             : [
             "always-multi-line",
             {
                 "severity": "error"
             }
         ],
-        "media-query-list-comma-newline-before": [
-
+        "media-query-list-comma-newline-before"            : [
             "never-multi-line",
             {
                 "severity": "error"
             }
         ],
-        "media-query-list-comma-space-after"   : [
-
+        "media-query-list-comma-space-after"               : [
             "always-single-line",
             {
                 "severity": "error"
             }
         ],
-        "media-query-list-comma-space-before"  : [
-
+        "media-query-list-comma-space-before"              : [
             "never",
             {
                 "severity": "error"
             }
         ],
-
-        "at-rule-empty-line-before": [
-
+        "at-rule-empty-line-before"                        : [
             "always",
             {
                 "except"  : [
                     "blockless-group",
-
                     "first-nested"
                 ],
                 "ignore"  : [
                     "after-comment"
-
                 ],
                 "severity": "error"
             }
         ],
-        "at-rule-no-vendor-prefix" : [
+        "at-rule-no-vendor-prefix"                         : [
             true,
             {
                 "severity": "error"
             }
         ],
-
-        "comment-empty-line-before": [
-
+        "comment-empty-line-before"                        : [
             "always",
             {
                 "except"  : [
@@ -757,42 +651,35 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "comment-whitespace-inside": [
-
+        "comment-whitespace-inside"                        : [
             "always",
             {
                 "severity": "error"
             }
         ],
-
-        "indentation"                     : [
-
+        "indentation"                                      : [
             4,
             {
-                "except": [],
-                "ignore": [],
-
+                "except"               : [],
+                "ignore"               : [],
                 "hierarchicalSelectors": true,
                 "severity"             : "error"
             }
         ],
-        "max-empty-lines"                 : [
-
+        "max-empty-lines"                                  : [
             1,
             {
                 "severity": "error"
             }
         ],
-        "max-line-length"                 : [
-
+        "max-line-length"                                  : [
             120,
             {
                 "ignore"  : [],
                 "severity": "error"
             }
         ],
-        "max-nesting-depth"               : [
-
+        "max-nesting-depth"                                : [
             2,
             {
                 "ignore"  : [
@@ -801,53 +688,51 @@ module.exports = {
                 "severity": "warning"
             }
         ],
-        "no-browser-hacks"                : [
-            true,
-            {
-
-                "severity": "error"
-            }
-        ],
-        "no-descending-specificity"       : [
+        "no-browser-hacks"                                 : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "no-duplicate-selectors"          : [
+        "no-descending-specificity"                        : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "no-eol-whitespace"               : [
+        "no-duplicate-selectors"                           : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "no-invalid-double-slash-comments": [
+        "no-eol-whitespace"                                : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "no-missing-eof-newline"          : [
+        "no-invalid-double-slash-comments"                 : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "no-unknown-animations"           : [
+        "no-missing-eof-newline"                           : [
             true,
             {
                 "severity": "error"
             }
         ],
-        "no-unsupported-browser-features" : [
+        "no-unknown-animations"                            : [
             true,
             {
-
+                "severity": "error"
+            }
+        ],
+        "no-unsupported-browser-features"                  : [
+            true,
+            {
                 "ignore"  : [],
                 "severity": "warning"
             }
