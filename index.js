@@ -712,6 +712,15 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "no-indistinguishable-colors"                      : [
+            true,
+            {
+                "threshold": 3,
+                "ignore"   : [],
+                "whitelist": [],
+                "severity" : "warning"
+            }
+        ],
         "no-invalid-double-slash-comments"                 : [
             true,
             {
