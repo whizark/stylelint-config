@@ -755,7 +755,7 @@ module.exports = {
             }
         ],
         "stylelint-disable-reason"                         : [
-            "always-preceding",
+            "always-before",
             {
                 "severity": "error"
             }
