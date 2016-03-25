@@ -753,6 +753,12 @@ module.exports = {
                 "ignore"  : [],
                 "severity": "warning"
             }
+        ],
+        "stylelint-disable-reason"                         : [
+            "always-preceding",
+            {
+                "severity": "error"
+            }
         ]
     }
 };
