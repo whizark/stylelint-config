@@ -623,12 +623,6 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "at-rule-blockless-newline-after"                  : [
-            "always",
-            {
-                "severity": "error"
-            }
-        ],
         "at-rule-empty-line-before"                        : [
             "always",
             {
@@ -644,6 +638,13 @@ module.exports = {
         ],
         "at-rule-no-vendor-prefix"                         : [
             true,
+            {
+                "severity": "error"
+            }
+        ],
+        "at-rule-semicolon-newline-after"                  : [
+            // string: "always"
+            "always",
             {
                 "severity": "error"
             }
