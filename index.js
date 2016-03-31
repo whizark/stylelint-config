@@ -90,6 +90,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "function-max-empty-lines"                         : [
+            0,
+            {
+                "severity": "error"
+            }
+        ],
         "function-parentheses-newline-inside"              : [
             "never-multi-line",
             {
