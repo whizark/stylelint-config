@@ -108,6 +108,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "function-url-data-uris"                           : [
+            null,
+            {
+                "severity": "error"
+            }
+        ],
         "function-url-quotes"                              : [
             "none",
             {
