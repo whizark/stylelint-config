@@ -306,6 +306,12 @@ module.exports = {
                 "severity": "warning"
             }
         ],
+        "declaration-block-no-ignored-properties"          : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "declaration-block-no-shorthand-property-overrides": [
             true,
             {
