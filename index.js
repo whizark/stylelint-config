@@ -180,6 +180,13 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "unit-no-unknown"                                  : [
+            true,
+            {
+                "ignoreUnits": [],
+                "severity"   : "error"
+            }
+        ],
         "unit-whitelist"                                   : [
             null,
             {
