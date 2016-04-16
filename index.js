@@ -247,6 +247,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "property-case"                                    : [
+            "lower",
+            {
+                "severity": "error"
+            }
+        ],
         "property-no-vendor-prefix"                        : [
             true,
             {
