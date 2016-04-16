@@ -528,6 +528,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-pseudo-element-case"                     : [
+            "lower",
+            {
+                "severity": "error"
+            }
+        ],
         "selector-pseudo-element-colon-notation"           : [
             "double",
             {
