@@ -534,6 +534,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-pseudo-class-case"                       : [
+            "lower",
+            {
+                "severity": "error"
+            }
+        ],
         "selector-pseudo-element-case"                     : [
             "lower",
             {
