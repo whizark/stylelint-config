@@ -700,6 +700,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "at-rule-name-case"                                : [
+            "lower",
+            {
+                "severity": "error"
+            }
+        ],
         "at-rule-no-vendor-prefix"                         : [
             true,
             {
