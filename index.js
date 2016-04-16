@@ -211,6 +211,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "value-keyword-case"                               : [
+            "lower",
+            {
+                "severity": "error"
+            }
+        ],
         "value-list-comma-newline-after"                   : [
             "always-multi-line",
             {
