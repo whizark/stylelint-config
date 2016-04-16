@@ -180,6 +180,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "unit-case"                                        : [
+            "lower",
+            {
+                "severity": "error"
+            }
+        ],
         "unit-no-unknown"                                  : [
             true,
             {
