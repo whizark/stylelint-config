@@ -96,6 +96,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "function-name-case"                               : [
+            "lower",
+            {
+                "severity": "error"
+            }
+        ],
         "function-parentheses-newline-inside"              : [
             "never-multi-line",
             {
