@@ -738,6 +738,7 @@ module.exports = {
         "indentation"                                      : [
             4,
             {
+                "indentInsideParens"   : "once",
                 "except"               : [],
                 "ignore"               : [],
                 "hierarchicalSelectors": true,
