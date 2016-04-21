@@ -742,6 +742,7 @@ module.exports = {
                 "except"               : [],
                 "ignore"               : [],
                 "hierarchicalSelectors": true,
+                "indentClosingBrace"   : false,
                 "severity"             : "error"
             }
         ],
