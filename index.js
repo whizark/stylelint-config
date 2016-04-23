@@ -540,6 +540,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-pseudo-class-parentheses-space-inside"   : [
+            "never",
+            {
+                "severity": "error"
+            }
+        ],
         "selector-pseudo-element-case"                     : [
             "lower",
             {
