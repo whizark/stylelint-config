@@ -214,7 +214,8 @@ module.exports = {
         "value-keyword-case"                               : [
             "lower",
             {
-                "severity": "error"
+                "ignoreKeywords": [],
+                "severity"      : "error"
             }
         ],
         "value-list-comma-newline-after"                   : [
