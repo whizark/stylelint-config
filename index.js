@@ -754,6 +754,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "comment-word-blacklist"                           : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "indentation"                                      : [
             4,
             {
