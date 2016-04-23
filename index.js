@@ -253,6 +253,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "shorthand-property-no-redundant-values"           : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "property-blacklist"                               : [
             null,
             {
