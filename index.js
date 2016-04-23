@@ -464,6 +464,12 @@ module.exports = {
                 "severity"     : "error"
             }
         ],
+        "selector-attribute-brackets-space-inside"  : [
+            "never",
+            {
+                "severity": "error"
+            }
+        ],
         "selector-class-pattern"                           : [
             "^[a-z][-_a-z0-9]*$",
             {
