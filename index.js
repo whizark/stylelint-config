@@ -471,7 +471,7 @@ module.exports = {
                 "severity"     : "error"
             }
         ],
-        "selector-attribute-brackets-space-inside"  : [
+        "selector-attribute-brackets-space-inside"         : [
             "never",
             {
                 "severity": "error"
@@ -523,6 +523,13 @@ module.exports = {
         "selector-no-id"                                   : [
             true,
             {
+                "severity": "warning"
+            }
+        ],
+        "selector-no-qualifying-type"                      : [
+            true,
+            {
+                "ignore"  : [],
                 "severity": "warning"
             }
         ],
