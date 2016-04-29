@@ -824,6 +824,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "no-extra-semicolons"                              : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "no-indistinguishable-colors"                      : [
             true,
             {
