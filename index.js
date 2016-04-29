@@ -477,6 +477,18 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-attribute-operator-space-after"          : [
+            "never",
+            {
+                "severity": "error"
+            }
+        ],
+        "selector-attribute-operator-space-before"         : [
+            "never",
+            {
+                "severity": "error"
+            }
+        ],
         "selector-class-pattern"                           : [
             "^[a-z][-_a-z0-9]*$",
             {
