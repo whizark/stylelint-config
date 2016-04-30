@@ -602,6 +602,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-max-empty-lines"                         : [
+            0,
+            {
+                "severity": "error"
+            }
+        ],
         "selector-list-comma-newline-after"                : [
             "always",
             {
