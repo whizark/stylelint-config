@@ -2,6 +2,6 @@
 
 module.exports = {
     "extends": [
-        "./rule/strict"
+        "./rules/strict"
     ].map(require.resolve)
 };

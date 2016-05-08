@@ -2,7 +2,7 @@
 
 module.exports = {
     "extends": [
-        "./rule/strict",
+        "./rules/strict",
         "./syntax/scss"
     ].map(require.resolve)
 };
