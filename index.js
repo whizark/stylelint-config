@@ -590,6 +590,13 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-pseudo-element-no-unknown"               : [
+            true,
+            {
+                "ignorePseudoElements": [],
+                "severity"            : "error"
+            }
+        ],
         "selector-root-no-composition"                     : [
             true,
             {
