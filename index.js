@@ -757,6 +757,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "at-rule-name-space-after"                         : [
+            "always",
+            {
+                "severity": "error"
+            }
+        ],
         "at-rule-no-vendor-prefix"                         : [
             true,
             {
