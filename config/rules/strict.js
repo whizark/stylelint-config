@@ -572,6 +572,13 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-pseudo-class-no-unknown"                 : [
+            true,
+            {
+                "ignorePseudoClasses": [],
+                "severity"           : "error"
+            }
+        ],
         "selector-pseudo-class-parentheses-space-inside"   : [
             "never",
             {
