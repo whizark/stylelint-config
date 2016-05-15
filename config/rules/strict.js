@@ -812,6 +812,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "keyframe-declaration-no-important"                : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "indentation"                                      : [
             4,
             {
