@@ -616,6 +616,13 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-type-no-unknown"                         : [
+            true,
+            {
+                "ignoreTypes": [],
+                "severity"   : "error"
+            }
+        ],
         "selector-max-empty-lines"                         : [
             0,
             {
