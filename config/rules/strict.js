@@ -308,6 +308,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "keyframe-declaration-no-important"                : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "declaration-bang-space-after"                     : [
             "always",
             {
@@ -808,12 +814,6 @@ module.exports = {
         ],
         "comment-word-blacklist"                           : [
             [],
-            {
-                "severity": "error"
-            }
-        ],
-        "keyframe-declaration-no-important"                : [
-            true,
             {
                 "severity": "error"
             }
