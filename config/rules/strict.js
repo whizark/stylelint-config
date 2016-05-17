@@ -796,6 +796,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "stylelint-disable-reason"                         : [
+            "always-before",
+            {
+                "severity": "error"
+            }
+        ],
         "comment-empty-line-before"                        : [
             "always",
             {
@@ -913,12 +919,6 @@ module.exports = {
             {
                 "ignore"  : [],
                 "severity": "warning"
-            }
-        ],
-        "stylelint-disable-reason"                         : [
-            "always-before",
-            {
-                "severity": "error"
             }
         ]
     }
