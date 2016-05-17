@@ -483,6 +483,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-attribute-operator-blacklist"            : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "selector-attribute-operator-space-after"          : [
             "never",
             {
@@ -491,6 +497,12 @@ module.exports = {
         ],
         "selector-attribute-operator-space-before"         : [
             "never",
+            {
+                "severity": "error"
+            }
+        ],
+        "selector-attribute-operator-whitelist"            : [
+            [],
             {
                 "severity": "error"
             }
