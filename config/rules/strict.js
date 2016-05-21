@@ -532,6 +532,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-max-compound-selectors"                  : [
+            3,
+            {
+                "severity": "warning"
+            }
+        ],
         "selector-max-specificity"                         : [
             "0,2,0",
             {
