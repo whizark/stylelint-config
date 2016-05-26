@@ -36,7 +36,7 @@ module.exports = {
             }
         ],
         "font-family-name-quotes"                          : [
-            "single-where-recommended",
+            "always-where-recommended",
             {
                 "severity": "error"
             }
