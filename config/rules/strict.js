@@ -848,7 +848,6 @@ module.exports = {
                 "indentInsideParens"   : "once",
                 "except"               : [],
                 "ignore"               : [],
-                "hierarchicalSelectors": true,
                 "indentClosingBrace"   : false,
                 "severity"             : "error"
             }
