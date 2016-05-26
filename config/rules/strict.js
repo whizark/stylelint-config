@@ -121,7 +121,7 @@ module.exports = {
             }
         ],
         "function-url-quotes"                              : [
-            "none",
+            "never",
             {
                 "severity": "error"
             }
