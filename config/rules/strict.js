@@ -845,11 +845,11 @@ module.exports = {
         "indentation"                                      : [
             4,
             {
-                "indentInsideParens"   : "once",
-                "except"               : [],
-                "ignore"               : [],
-                "indentClosingBrace"   : false,
-                "severity"             : "error"
+                "indentInsideParens": "once",
+                "except"            : [],
+                "ignore"            : [],
+                "indentClosingBrace": false,
+                "severity"          : "error"
             }
         ],
         "max-empty-lines"                                  : [
