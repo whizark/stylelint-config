@@ -795,6 +795,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "at-rule-name-newline-after"                       : [
+            false,
+            {
+                "severity": "error"
+            }
+        ],
         "at-rule-name-space-after"                         : [
             "always",
             {
