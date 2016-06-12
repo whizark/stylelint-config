@@ -826,6 +826,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "at-rule-whitelist"                                : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "stylelint-disable-reason"                         : [
             "always-before",
             {
