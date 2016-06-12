@@ -49,7 +49,7 @@ module.exports = {
             }
         ],
         "function-blacklist"                               : [
-            null,
+            [],
             {
                 "severity": "error"
             }
@@ -127,7 +127,7 @@ module.exports = {
             }
         ],
         "function-whitelist"                               : [
-            null,
+            [],
             {
                 "severity": "error"
             }
@@ -181,7 +181,7 @@ module.exports = {
             }
         ],
         "unit-blacklist"                                   : [
-            null,
+            [],
             {
                 "severity": "error"
             }
@@ -200,7 +200,7 @@ module.exports = {
             }
         ],
         "unit-whitelist"                                   : [
-            null,
+            [],
             {
                 "severity": "error"
             }
@@ -261,7 +261,7 @@ module.exports = {
             }
         ],
         "property-blacklist"                               : [
-            null,
+            [],
             {
                 "severity": "error"
             }
@@ -279,31 +279,31 @@ module.exports = {
             }
         ],
         "property-unit-blacklist"                          : [
-            null,
+            {},
             {
                 "severity": "error"
             }
         ],
         "property-unit-whitelist"                          : [
-            null,
+            {},
             {
                 "severity": "error"
             }
         ],
         "property-value-blacklist"                         : [
-            null,
+            {},
             {
                 "severity": "error"
             }
         ],
         "property-value-whitelist"                         : [
-            null,
+            {},
             {
                 "severity": "error"
             }
         ],
         "property-whitelist"                               : [
-            null,
+            [],
             {
                 "severity": "error"
             }
