@@ -776,6 +776,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "at-rule-blacklist"                                : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "at-rule-empty-line-before"                        : [
             "always",
             {
