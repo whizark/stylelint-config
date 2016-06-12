@@ -785,14 +785,15 @@ module.exports = {
         "at-rule-empty-line-before"                        : [
             "always",
             {
-                "except"  : [
+                "except"       : [
                     "blockless-group",
                     "first-nested"
                 ],
-                "ignore"  : [
+                "ignore"       : [
                     "after-comment"
                 ],
-                "severity": "error"
+                "ignoreAtRules": [],
+                "severity"     : "error"
             }
         ],
         "at-rule-name-case"                                : [
