@@ -278,30 +278,6 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "property-unit-blacklist"                          : [
-            {},
-            {
-                "severity": "error"
-            }
-        ],
-        "property-unit-whitelist"                          : [
-            {},
-            {
-                "severity": "error"
-            }
-        ],
-        "property-value-blacklist"                         : [
-            {},
-            {
-                "severity": "error"
-            }
-        ],
-        "property-value-whitelist"                         : [
-            {},
-            {
-                "severity": "error"
-            }
-        ],
         "property-whitelist"                               : [
             [],
             {
@@ -348,6 +324,30 @@ module.exports = {
             true,
             {
                 "severity": "warning"
+            }
+        ],
+        "declaration-property-unit-blacklist"              : [
+            {},
+            {
+                "severity": "error"
+            }
+        ],
+        "declaration-property-unit-whitelist"              : [
+            {},
+            {
+                "severity": "error"
+            }
+        ],
+        "declaration-property-value-blacklist"             : [
+            {},
+            {
+                "severity": "error"
+            }
+        ],
+        "declaration-property-value-whitelist"             : [
+            {},
+            {
+                "severity": "error"
             }
         ],
         "declaration-block-no-duplicate-properties"        : [
