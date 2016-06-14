@@ -156,12 +156,6 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "number-zero-length-no-unit"                       : [
-            true,
-            {
-                "severity": "error"
-            }
-        ],
         "string-no-newline"                                : [
             true,
             {
@@ -170,6 +164,12 @@ module.exports = {
         ],
         "string-quotes"                                    : [
             "single",
+            {
+                "severity": "error"
+            }
+        ],
+        "length-zero-no-unit"                              : [
+            true,
             {
                 "severity": "error"
             }
