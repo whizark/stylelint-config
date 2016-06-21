@@ -99,7 +99,8 @@ module.exports = {
         "function-name-case"                               : [
             "lower",
             {
-                "severity": "error"
+                "ignoreFunctions": [],
+                "severity"       : "error"
             }
         ],
         "function-parentheses-newline-inside"              : [
