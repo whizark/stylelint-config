@@ -804,7 +804,7 @@ module.exports = {
             }
         ],
         "at-rule-name-newline-after"                       : [
-            false,
+            null,
             {
                 "severity": "error"
             }
