@@ -354,10 +354,11 @@ module.exports = {
         "declaration-block-no-duplicate-properties"        : [
             true,
             {
-                "ignore"  : [
+                "ignore"          : [
                     "consecutive-duplicates"
                 ],
-                "severity": "warning"
+                "ignoreProperties": [],
+                "severity"        : "warning"
             }
         ],
         "declaration-block-no-ignored-properties"          : [
