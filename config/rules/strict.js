@@ -206,17 +206,17 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "value-no-vendor-prefix"                           : [
-            true,
-            {
-                "severity": "error"
-            }
-        ],
         "value-keyword-case"                               : [
             "lower",
             {
                 "ignoreKeywords": [],
                 "severity"      : "error"
+            }
+        ],
+        "value-no-vendor-prefix"                           : [
+            true,
+            {
+                "severity": "error"
             }
         ],
         "value-list-comma-newline-after"                   : [
