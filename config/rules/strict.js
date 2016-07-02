@@ -816,6 +816,13 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "at-rule-no-unknown"                               : [
+            true,
+            {
+                "ignoreAtRules": [],
+                "severity"     : "error"
+            }
+        ],
         "at-rule-no-vendor-prefix"                         : [
             true,
             {
