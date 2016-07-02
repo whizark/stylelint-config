@@ -913,6 +913,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "no-empty-source"                                  : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "no-eol-whitespace"                                : [
             true,
             {
