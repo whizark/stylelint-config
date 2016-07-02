@@ -1,10 +1,11 @@
 'use strict';
 
 module.exports = {
-    "extends"    : [],
-    "plugins"    : [],
-    "ignoreFiles": [],
-    "rules"      : {
+    "extends"        : [],
+    "plugins"        : [],
+    "ignoreFiles"    : [],
+    "defaultSeverity": "error",
+    "rules"          : {
         "color-hex-case"                                   : [
             "lower",
             {
