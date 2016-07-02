@@ -35,6 +35,6 @@
         "stylelint": "latest"
     },
     "peerDependencies": {
-        "stylelint": "~6.7.1"
+        "stylelint": "~6.8.0"
     }
 }
