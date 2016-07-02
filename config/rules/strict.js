@@ -700,6 +700,9 @@ module.exports = {
         "rule-non-nested-empty-line-before"                : [
             "always-multi-line",
             {
+                "except"  : [
+                    "after-single-line-comment"
+                ],
                 "ignore"  : [
                     "after-comment"
                 ],
