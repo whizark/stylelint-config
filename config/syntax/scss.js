@@ -2,6 +2,6 @@
 
 module.exports = {
     "rules": {
-        "no-browser-hacks": false
+        "no-browser-hacks": null
     }
 };
