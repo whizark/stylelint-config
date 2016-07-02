@@ -3,7 +3,7 @@
 [![npm][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-stylelint sharable configuration files.
+[stylelint](https://github.com/stylelint/stylelint) sharable configuration files.
 
 [npm-image]: https://img.shields.io/npm/v/@whizark/stylelint-config.svg
 [npm-url]: https://www.npmjs.com/@whizark/stylelint-config
