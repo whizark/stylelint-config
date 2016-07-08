@@ -122,6 +122,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "function-url-no-scheme-relative"                  : [
+            null,
+            {
+                "severity": "error"
+            }
+        ],
         "function-url-quotes"                              : [
             "never",
             {
