@@ -510,6 +510,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-attribute-quotes"                        : [
+            "always",
+            {
+                "severity": "error"
+            }
+        ],
         "selector-class-pattern"                           : [
             "^[a-z][-_a-z0-9]*$",
             {
