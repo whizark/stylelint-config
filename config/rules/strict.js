@@ -280,6 +280,13 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "property-no-unknown"                              : [
+            true,
+            {
+                "ignoreProperties": [],
+                "severity"        : "error"
+            }
+        ],
         "property-no-vendor-prefix"                        : [
             true,
             {
