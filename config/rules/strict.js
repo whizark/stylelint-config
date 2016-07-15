@@ -896,7 +896,7 @@ module.exports = {
         "indentation"                                      : [
             4,
             {
-                "indentInsideParens": "once",
+                "indentInsideParens": "once-at-root-twice-in-block",
                 "except"            : [],
                 "ignore"            : [],
                 "indentClosingBrace": false,
