@@ -976,7 +976,7 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "no-missing-eof-newline"                           : [
+        "no-missing-end-of-source-newline"                 : [
             true,
             {
                 "severity": "error"
