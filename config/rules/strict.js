@@ -753,6 +753,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "media-feature-parentheses-space-inside"           : [
+            "never",
+            {
+                "severity": "error"
+            }
+        ],
         "media-feature-range-operator-space-after"         : [
             "always",
             {
@@ -767,12 +773,6 @@ module.exports = {
         ],
         "custom-media-pattern"                             : [
             null,
-            {
-                "severity": "error"
-            }
-        ],
-        "media-query-parentheses-space-inside"             : [
-            "never",
             {
                 "severity": "error"
             }
