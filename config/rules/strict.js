@@ -250,6 +250,17 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "custom-property-empty-line-before"                : [
+            "always",
+            {
+                "expect"  : [
+                    "after-comment",
+                    "after-custom-property",
+                    "first-nested"
+                ],
+                "severity": "error"
+            }
+        ],
         "custom-property-no-outside-root"                  : [
             true,
             {
