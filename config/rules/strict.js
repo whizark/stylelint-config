@@ -441,6 +441,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "block-closing-brace-empty-line-before"            : [
+            "never",
+            {
+                "severity": "error"
+            }
+        ],
         "block-closing-brace-newline-after"                : [
             "always",
             {
