@@ -764,6 +764,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "media-feature-name-case"                          : [
+            "lower",
+            {
+                "severity": "error"
+            }
+        ],
         "media-feature-name-no-vendor-prefix"              : [
             true,
             {
