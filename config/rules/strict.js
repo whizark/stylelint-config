@@ -629,6 +629,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-pseudo-class-blacklist"                  : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "selector-pseudo-class-case"                       : [
             "lower",
             {
