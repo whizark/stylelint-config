@@ -916,6 +916,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "comment-no-empty"                                 : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "comment-whitespace-inside"                        : [
             "always",
             {
