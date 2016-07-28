@@ -619,10 +619,11 @@ module.exports = {
         "selector-no-type"                                 : [
             true,
             {
-                "ignore"  : [
+                "ignore"     : [
                     "descendant"
                 ],
-                "severity": "error"
+                "ignoreTypes": [],
+                "severity"   : "error"
             }
         ],
         "selector-no-universal"                            : [
