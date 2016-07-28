@@ -258,6 +258,9 @@ module.exports = {
                     "after-custom-property",
                     "first-nested"
                 ],
+                "ignore"  : [
+                    "inside-single-line-block"
+                ],
                 "severity": "error"
             }
         ],
