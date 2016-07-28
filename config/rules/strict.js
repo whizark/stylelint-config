@@ -346,6 +346,14 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "declaration-empty-line-before"                    : [
+            null,
+            {
+                "except"  : [],
+                "ignore"  : [],
+                "severity": "error"
+            }
+        ],
         "declaration-no-important"                         : [
             true,
             {
