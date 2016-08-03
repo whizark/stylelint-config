@@ -1005,6 +1005,7 @@ module.exports = {
         "no-eol-whitespace"                                : [
             true,
             {
+                "ignore"  : [],
                 "severity": "error"
             }
         ],
