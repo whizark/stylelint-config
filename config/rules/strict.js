@@ -253,7 +253,7 @@ module.exports = {
         "custom-property-empty-line-before"                : [
             "always",
             {
-                "expect"  : [
+                "except"  : [
                     "after-comment",
                     "after-custom-property",
                     "first-nested"
