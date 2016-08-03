@@ -862,7 +862,8 @@ module.exports = {
                     "first-nested"
                 ],
                 "ignore"       : [
-                    "after-comment"
+                    "after-comment",
+                    "blockless-after-same-name-blockless"
                 ],
                 "ignoreAtRules": [],
                 "severity"     : "error"
