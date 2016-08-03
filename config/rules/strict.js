@@ -594,6 +594,12 @@ module.exports = {
                 "severity": "warning"
             }
         ],
+        "selector-nested-pattern"                          : [
+            null,
+            {
+                "severity": "error"
+            }
+        ],
         "selector-no-attribute"                            : [
             null,
             {
