@@ -250,6 +250,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "value-list-max-empty-lines"                       : [
+            0,
+            {
+                "severity": "error"
+            }
+        ],
         "custom-property-empty-line-before"                : [
             "always",
             {
