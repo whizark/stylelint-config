@@ -141,7 +141,7 @@ module.exports = {
             }
         ],
         "function-whitelist"                               : [
-            [],
+            null,
             {
                 "severity": "error"
             }
@@ -214,7 +214,7 @@ module.exports = {
             }
         ],
         "unit-whitelist"                                   : [
-            [],
+            null,
             {
                 "severity": "error"
             }
@@ -321,7 +321,7 @@ module.exports = {
             }
         ],
         "property-whitelist"                               : [
-            [],
+            null,
             {
                 "severity": "error"
             }
@@ -383,7 +383,7 @@ module.exports = {
             }
         ],
         "declaration-property-unit-whitelist"              : [
-            {},
+            null,
             {
                 "severity": "error"
             }
@@ -395,7 +395,7 @@ module.exports = {
             }
         ],
         "declaration-property-value-whitelist"             : [
-            {},
+            null,
             {
                 "severity": "error"
             }
@@ -560,7 +560,7 @@ module.exports = {
             }
         ],
         "selector-attribute-operator-whitelist"            : [
-            [],
+            null,
             {
                 "severity": "error"
             }
@@ -687,7 +687,7 @@ module.exports = {
             }
         ],
         "selector-pseudo-class-whitelist"                  : [
-            [],
+            null,
             {
                 "severity": "error"
             }
@@ -935,7 +935,7 @@ module.exports = {
             }
         ],
         "at-rule-whitelist"                                : [
-            [],
+            null,
             {
                 "severity": "error"
             }
