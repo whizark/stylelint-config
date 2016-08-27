@@ -801,6 +801,13 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "media-feature-name-no-unknown"                    : [
+            true,
+            {
+                "ignoreMediaFeatureNames": [],
+                "severity"               : "error"
+            }
+        ],
         "media-feature-name-no-vendor-prefix"              : [
             true,
             {
