@@ -134,6 +134,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "function-url-scheme-whitelist"                    : [
+            null,
+            {
+                "severity": "error"
+            }
+        ],
         "function-whitelist"                               : [
             [],
             {
