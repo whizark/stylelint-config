@@ -993,10 +993,11 @@ module.exports = {
         "max-nesting-depth"                                : [
             2,
             {
-                "ignore"  : [
+                "ignore"       : [
                     "at-rules-without-declaration-blocks"
                 ],
-                "severity": "warning"
+                "ignoreAtRules": [],
+                "severity"     : "warning"
             }
         ],
         "no-browser-hacks"                                 : [
