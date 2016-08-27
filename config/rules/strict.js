@@ -21,7 +21,8 @@ module.exports = {
         "color-named"                                      : [
             "always-where-possible",
             {
-                "severity": "error"
+                "ignoreProperties": [],
+                "severity"        : "error"
             }
         ],
         "color-no-hex"                                     : [
