@@ -198,7 +198,8 @@ module.exports = {
         "unit-blacklist"                                   : [
             [],
             {
-                "severity": "error"
+                "ignoreProperties": [],
+                "severity"        : "error"
             }
         ],
         "unit-case"                                        : [
