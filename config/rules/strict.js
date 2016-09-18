@@ -599,6 +599,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-descendant-combinator-no-non-space"       : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "selector-id-pattern"                               : [
             "^[a-z][-_a-z0-9]*$",
             {
