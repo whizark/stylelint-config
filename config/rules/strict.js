@@ -819,6 +819,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "media-feature-name-blacklist"                      : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "media-feature-name-case"                           : [
             "lower",
             {
@@ -834,6 +840,12 @@ module.exports = {
         ],
         "media-feature-name-no-vendor-prefix"               : [
             true,
+            {
+                "severity": "error"
+            }
+        ],
+        "media-feature-name-whitelist"                      : [
+            null,
             {
                 "severity": "error"
             }
