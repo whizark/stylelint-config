@@ -133,6 +133,7 @@ module.exports = {
         "function-url-quotes"                               : [
             "never",
             {
+                "except"  : [],
                 "severity": "error"
             }
         ],
