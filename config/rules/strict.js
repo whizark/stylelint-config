@@ -643,6 +643,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-no-empty"                                 : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "selector-no-id"                                    : [
             true,
             {
