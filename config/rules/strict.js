@@ -3,6 +3,7 @@
 module.exports = {
     "extends"        : [],
     "plugins"        : [],
+    "processors"     : [],
     "ignoreFiles"    : [],
     "defaultSeverity": "error",
     "rules"          : {
