@@ -44,6 +44,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "font-family-no-duplicate-names"                    : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "font-weight-notation"                              : [
             "named-where-possible",
             {
