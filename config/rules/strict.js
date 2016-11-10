@@ -440,13 +440,6 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "declaration-block-properties-order"                : [
-            null,
-            {
-                "unspecified": "bottomAlphabetical",
-                "severity"   : "error"
-            }
-        ],
         "declaration-block-semicolon-newline-after"         : [
             "always",
             {
