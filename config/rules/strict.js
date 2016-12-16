@@ -793,7 +793,8 @@ module.exports = {
             "always",
             {
                 "except"  : [
-                    "first-nested"
+                    "first-nested",
+                    "after-rule"
                 ],
                 "ignore"  : [
                     "after-comment"
