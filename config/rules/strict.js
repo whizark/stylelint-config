@@ -529,8 +529,7 @@ module.exports = {
         "block-opening-brace-newline-before"                : [
             "always",
             {
-                "ignoreAtRules": [],
-                "severity"     : "error"
+                "severity": "error"
             }
         ],
         "block-opening-brace-space-after"                   : [
