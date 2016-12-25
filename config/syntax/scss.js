@@ -2,6 +2,29 @@
 
 module.exports = {
     "rules": {
-        "no-browser-hacks": null
+        "at-rule-no-unknown": [
+            true,
+            {
+                "ignoreAtRules": [
+                    "extend",
+                    "at-root",
+                    "debug",
+                    "warn",
+                    "error",
+                    "if",
+                    "else",
+                    "for",
+                    "each",
+                    "while",
+                    "mixin",
+                    "include",
+                    "content",
+                    "function",
+                    "return"
+                ],
+                "severity"     : "error"
+            }
+        ],
+        "no-browser-hacks"  : null
     }
 };
