@@ -64,6 +64,18 @@ module.exports = {
                 "severity"     : "error"
             }
         ],
+        "indentation"                       : [
+            4,
+            {
+                "indentInsideParens": "once-at-root-twice-in-block",
+                "except"            : [],
+                "ignore"            : [
+                    "inside-parens"
+                ],
+                "indentClosingBrace": false,
+                "severity"          : "error"
+            }
+        ],
         "no-browser-hacks"                  : null
     }
 };
