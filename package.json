@@ -32,7 +32,7 @@
         "test": "stylelint --config ./index.js"
     },
     "devDependencies" : {
-        "stylelint"     : "latest",
+        "stylelint"     : "https://github.com/stylelint/stylelint.git#master",
         "stylelint-scss": "latest"
     },
     "peerDependencies": {
