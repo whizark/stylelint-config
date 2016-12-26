@@ -344,13 +344,13 @@ module.exports = {
             }
         ],
         "declaration-bang-space-after"                      : [
-            "always",
+            "never",
             {
                 "severity": "error"
             }
         ],
         "declaration-bang-space-before"                     : [
-            "never",
+            "always",
             {
                 "severity": "error"
             }
