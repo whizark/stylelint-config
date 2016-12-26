@@ -2,7 +2,46 @@
 
 module.exports = {
     "rules": {
-        "at-rule-no-unknown": [
+        "block-closing-brace-newline-after" : [
+            "always",
+            {
+                "ignoreAtRules": [
+                    "if",
+                    "else"
+                ],
+                "severity"     : "error"
+            }
+        ],
+        "block-opening-brace-newline-before": [
+            // Prevents errors that `@if` directive causes.
+            //
+            // e.g.
+            // @if true {
+            //         ^ `always` causes an error here.
+            // }
+            "always-single-line",
+            {
+                "severity": "error"
+            }
+        ],
+        "at-rule-empty-line-before"         : [
+            "always",
+            {
+                "except"       : [
+                    "blockless-after-same-name-blockless",
+                    "blockless-group",
+                    "first-nested"
+                ],
+                "ignore"       : [
+                    "after-comment"
+                ],
+                "ignoreAtRules": [
+                    "else"
+                ],
+                "severity"     : "error"
+            }
+        ],
+        "at-rule-no-unknown"                : [
             true,
             {
                 "ignoreAtRules": [
@@ -25,6 +64,6 @@ module.exports = {
                 "severity"     : "error"
             }
         ],
-        "no-browser-hacks"  : null
+        "no-browser-hacks"                  : null
     }
 };
