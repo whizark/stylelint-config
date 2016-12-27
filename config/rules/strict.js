@@ -83,7 +83,7 @@ module.exports = {
             }
         ],
         "function-comma-space-after"                        : [
-            "always",
+            "always-single-line",
             {
                 "severity": "error"
             }
