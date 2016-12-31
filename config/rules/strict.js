@@ -1,6 +1,10 @@
 'use strict';
 
-module.exports = {
+const root = require('app-root-path');
+const path = require('path');
+const fs   = require('fs');
+
+const config = {
     "extends"        : [],
     "plugins"        : [],
     "processors"     : [],
@@ -1114,3 +1118,36 @@ module.exports = {
         ]
     }
 };
+
+/**
+ * Adjusts `no-unsupported-browser-features` rule.
+ *
+ * * Applies `browserslist` to `browsers` options.
+ *
+ * @param {Object} config stylelint settings.
+ *
+ * @returns {Object} The adjusted stylelint settings.
+ */
+function adjustNoUnsupportedBrowserFeatures(config) {
+    const adjustedConfig   = Object.assign({}, config);
+    const browserslistPath = path.join(root.path, 'browserslist');
+
+    let browsers = [];
+
+    try {
+        const browserslist = fs.readFileSync(browserslistPath, {encoding: 'utf8', flags: 'r'});
+
+        browsers = browserslist.split('\n')
+            .filter((value) => (value.trim() !== ''))
+            .filter((value, index, array) => (array.indexOf(value) === index));
+    } catch (err) {
+    }
+
+    if (browsers.length) {
+        adjustedConfig.rules['no-unsupported-browser-features'][1].browsers = browsers;
+    }
+
+    return adjustedConfig;
+}
+
+module.exports = adjustNoUnsupportedBrowserFeatures(config);

@@ -32,6 +32,9 @@
     "scripts"         : {
         "test": "stylelint --config ./index.js"
     },
+    "dependencies"    : {
+        "app-root-path": "~2.0.1"
+    },
     "devDependencies" : {
         "stylelint"     : "https://github.com/stylelint/stylelint.git#master",
         "stylelint-scss": "latest"
