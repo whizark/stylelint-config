@@ -260,7 +260,7 @@ const config = {
             }
         ],
         "value-list-comma-space-after"                      : [
-            "always",
+            "always-single-line",
             {
                 "severity": "error"
             }
@@ -366,7 +366,7 @@ const config = {
             }
         ],
         "declaration-colon-space-after"                     : [
-            "always",
+            "always-single-line",
             {
                 "severity": "error"
             }
