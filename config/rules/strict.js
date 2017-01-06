@@ -799,8 +799,7 @@ const config = {
             "always",
             {
                 "except"  : [
-                    "first-nested",
-                    "after-rule"
+                    "first-nested"
                 ],
                 "ignore"  : [
                     "after-comment"
