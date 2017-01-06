@@ -671,7 +671,10 @@ const config = {
                 "ignore"     : [
                     "descendant"
                 ],
-                "ignoreTypes": [],
+                "ignoreTypes": [
+                    "html",
+                    "body"
+                ],
                 "severity"   : "error"
             }
         ],
