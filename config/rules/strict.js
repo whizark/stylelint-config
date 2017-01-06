@@ -244,7 +244,7 @@ const config = {
         "value-no-vendor-prefix"                            : [
             true,
             {
-                "severity": "error"
+                "severity": "warning"
             }
         ],
         "value-list-comma-newline-after"                    : [
@@ -332,7 +332,7 @@ const config = {
         "property-no-vendor-prefix"                         : [
             true,
             {
-                "severity": "error"
+                "severity": "warning"
             }
         ],
         "property-whitelist"                                : [
@@ -684,7 +684,7 @@ const config = {
         "selector-no-vendor-prefix"                         : [
             true,
             {
-                "severity": "error"
+                "severity": "warning"
             }
         ],
         "selector-pseudo-class-blacklist"                   : [
@@ -851,7 +851,7 @@ const config = {
         "media-feature-name-no-vendor-prefix"               : [
             true,
             {
-                "severity": "error"
+                "severity": "warning"
             }
         ],
         "media-feature-name-whitelist"                      : [
@@ -962,7 +962,7 @@ const config = {
         "at-rule-no-vendor-prefix"                          : [
             true,
             {
-                "severity": "error"
+                "severity": "warning"
             }
         ],
         "at-rule-semicolon-newline-after"                   : [
