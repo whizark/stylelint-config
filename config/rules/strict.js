@@ -376,9 +376,13 @@ const config = {
             }
         ],
         "declaration-empty-line-before"                     : [
-            null,
+            "always",
             {
-                "except"  : [],
+                "except"  : [
+                    "after-comment",
+                    "after-declaration",
+                    "first-nested"
+                ],
                 "ignore"  : [],
                 "severity": "error"
             }
