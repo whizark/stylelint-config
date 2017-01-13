@@ -285,9 +285,7 @@ const config = {
                     "after-custom-property",
                     "first-nested"
                 ],
-                "ignore"  : [
-                    "inside-single-line-block"
-                ],
+                "ignore"  : [],
                 "severity": "error"
             }
         ],
