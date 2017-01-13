@@ -116,9 +116,7 @@ module.exports = {
                     "after-comment",
                     "after-dollar-variable"
                 ],
-                "ignore"  : [
-                    "inside-single-line-block"
-                ],
+                "ignore"  : [],
                 "severity": "error"
             }
         ],
