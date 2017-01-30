@@ -434,12 +434,6 @@ const config = {
                 "severity"        : "warning"
             }
         ],
-        "declaration-block-no-ignored-properties"           : [
-            true,
-            {
-                "severity": "error"
-            }
-        ],
         "declaration-block-no-redundant-longhand-properties": [
             true,
             {
@@ -524,12 +518,6 @@ const config = {
             true,
             {
                 "severity": "warning"
-            }
-        ],
-        "block-no-single-line"                              : [
-            true,
-            {
-                "severity": "error"
             }
         ],
         "block-opening-brace-newline-after"                 : [
@@ -650,12 +638,6 @@ const config = {
         ],
         "selector-no-combinator"                            : [
             null,
-            {
-                "severity": "error"
-            }
-        ],
-        "selector-no-empty"                                 : [
-            true,
             {
                 "severity": "error"
             }
@@ -870,12 +852,6 @@ const config = {
                 "severity": "error"
             }
         ],
-        "media-feature-no-missing-punctuation"              : [
-            true,
-            {
-                "severity": "error"
-            }
-        ],
         "media-feature-parentheses-space-inside"            : [
             "never",
             {
@@ -1049,7 +1025,7 @@ const config = {
             2,
             {
                 "ignore"       : [
-                    "at-rules-without-declaration-blocks"
+                    "blockless-at-rules"
                 ],
                 "ignoreAtRules": [],
                 "severity"     : "warning"
