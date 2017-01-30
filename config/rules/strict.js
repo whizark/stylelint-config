@@ -202,6 +202,12 @@ const config = {
                 "severity": "error"
             }
         ],
+        "time-min-milliseconds"                             : [
+            100,
+            {
+                "severity": "error"
+            }
+        ],
         "time-no-imperceptible"                             : [
             true,
             {
