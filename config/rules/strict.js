@@ -785,23 +785,11 @@ const config = {
                 "severity": "error"
             }
         ],
-        "rule-nested-empty-line-before"                     : [
+        "rule-empty-line-before"                            : [
             "always",
             {
                 "except"  : [
                     "first-nested"
-                ],
-                "ignore"  : [
-                    "after-comment"
-                ],
-                "severity": "error"
-            }
-        ],
-        "rule-non-nested-empty-line-before"                 : [
-            "always-multi-line",
-            {
-                "except"  : [
-                    "after-single-line-comment"
                 ],
                 "ignore"  : [
                     "after-comment"
