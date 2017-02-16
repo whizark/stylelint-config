@@ -52,7 +52,8 @@ const config = {
         "font-family-no-duplicate-names"                    : [
             true,
             {
-                "severity": "error"
+                "ignoreFontFamilyNames": [],
+                "severity"             : "error"
             }
         ],
         "font-weight-notation"                              : [
