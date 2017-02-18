@@ -1006,8 +1006,9 @@ const config = {
         "max-line-length"                                   : [
             120,
             {
-                "ignore"  : [],
-                "severity": "error"
+                "ignore"       : [],
+                "ignorePattern": [],
+                "severity"     : "error"
             }
         ],
         "max-nesting-depth"                                 : [
