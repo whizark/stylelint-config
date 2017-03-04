@@ -941,7 +941,6 @@ const config = {
             }
         ],
         "at-rule-semicolon-newline-after"                   : [
-            // string: "always"
             "always",
             {
                 "severity": "error"
