@@ -946,6 +946,12 @@ const config = {
                 "severity": "error"
             }
         ],
+        "at-rule-semicolon-space-before"                    : [
+            "never",
+            {
+                "severity": "error"
+            }
+        ],
         "at-rule-whitelist"                                 : [
             null,
             {
