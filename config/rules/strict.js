@@ -1005,6 +1005,7 @@ const config = {
         "max-empty-lines"                                   : [
             1,
             {
+                "ignore"  : [],
                 "severity": "error"
             }
         ],
