@@ -746,8 +746,10 @@ const config = {
         "selector-type-no-unknown"                          : [
             true,
             {
-                "ignoreTypes": [],
-                "severity"   : "error"
+                "ignore"          : [],
+                "ignoreNamespaces": [],
+                "ignoreTypes"     : [],
+                "severity"        : "error"
             }
         ],
         "selector-max-empty-lines"                          : [
