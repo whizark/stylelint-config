@@ -613,6 +613,12 @@ const config = {
                 "severity": "error"
             }
         ],
+        "selector-max-attribute"                            : [
+            2,
+            {
+                "severity": "warning"
+            }
+        ],
         "selector-max-class"                                : [
             2,
             {
