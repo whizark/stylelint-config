@@ -149,6 +149,12 @@ const config = {
                 "severity": "error"
             }
         ],
+        "function-url-scheme-blacklist"                     : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "function-url-scheme-whitelist"                     : [
             null,
             {
