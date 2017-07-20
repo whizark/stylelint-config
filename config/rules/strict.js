@@ -631,6 +631,12 @@ const config = {
                 "severity": "warning"
             }
         ],
+        "selector-max-combinators"                          : [
+            1,
+            {
+                "severity": "warning"
+            }
+        ],
         "selector-max-compound-selectors"                   : [
             3,
             {
