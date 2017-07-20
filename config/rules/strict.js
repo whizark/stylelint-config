@@ -655,6 +655,12 @@ const config = {
                 "severity": "warning"
             }
         ],
+        "selector-max-universal"                            : [
+            2,
+            {
+                "severity": "warning"
+            }
+        ],
         "selector-nested-pattern"                           : [
             null,
             {
