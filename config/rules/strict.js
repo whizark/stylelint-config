@@ -643,6 +643,12 @@ const config = {
                 "severity": "error"
             }
         ],
+        "selector-max-id"                                   : [
+            1,
+            {
+                "severity": "warning"
+            }
+        ],
         "selector-max-specificity"                          : [
             "0,2,0",
             {
