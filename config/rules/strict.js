@@ -616,7 +616,8 @@ const config = {
         "selector-max-attribute"                            : [
             2,
             {
-                "severity": "warning"
+                "ignoreAttributes": [],
+                "severity"        : "warning"
             }
         ],
         "selector-max-class"                                : [
