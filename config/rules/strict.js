@@ -130,12 +130,6 @@ const config = {
                 "severity": "error"
             }
         ],
-        "function-url-data-uris"                            : [
-            null,
-            {
-                "severity": "error"
-            }
-        ],
         "function-url-no-scheme-relative"                   : [
             null,
             {
@@ -681,47 +675,10 @@ const config = {
                 "severity": "error"
             }
         ],
-        "selector-no-attribute"                             : [
-            null,
-            {
-                "severity": "error"
-            }
-        ],
-        "selector-no-combinator"                            : [
-            null,
-            {
-                "severity": "error"
-            }
-        ],
-        "selector-no-id"                                    : [
-            true,
-            {
-                "severity": "warning"
-            }
-        ],
         "selector-no-qualifying-type"                       : [
             true,
             {
                 "ignore"  : [],
-                "severity": "warning"
-            }
-        ],
-        "selector-no-type"                                  : [
-            true,
-            {
-                "ignore"     : [
-                    "descendant"
-                ],
-                "ignoreTypes": [
-                    "html",
-                    "body"
-                ],
-                "severity"   : "error"
-            }
-        ],
-        "selector-no-universal"                             : [
-            true,
-            {
                 "severity": "warning"
             }
         ],
