@@ -661,6 +661,14 @@ const config = {
                 "severity": "warning"
             }
         ],
+        "selector-max-type"                                 : [
+            1,
+            {
+                "ignore"     : [],
+                "ignoreTypes": [],
+                "severity"   : "warning"
+            }
+        ],
         "selector-max-universal"                            : [
             2,
             {
