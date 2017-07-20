@@ -637,6 +637,12 @@ const config = {
                 "severity": "warning"
             }
         ],
+        "selector-max-empty-lines"                          : [
+            0,
+            {
+                "severity": "error"
+            }
+        ],
         "selector-max-specificity"                          : [
             "0,2,0",
             {
@@ -768,12 +774,6 @@ const config = {
                 "ignoreNamespaces": [],
                 "ignoreTypes"     : [],
                 "severity"        : "error"
-            }
-        ],
-        "selector-max-empty-lines"                          : [
-            0,
-            {
-                "severity": "error"
             }
         ],
         "selector-list-comma-newline-after"                 : [
