@@ -1,6 +1,6 @@
 {
     "name"                : "@whizark/stylelint-config",
-    "version"             : "0.39.0",
+    "version"             : "0.39.1",
     "description"         : "stylelint sharable configuration files",
     "keywords"            : [
         "stylelint",
