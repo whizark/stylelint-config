@@ -209,12 +209,6 @@ const config = {
                 "severity": "error"
             }
         ],
-        "time-no-imperceptible"                             : [
-            true,
-            {
-                "severity": "error"
-            }
-        ],
         "unit-blacklist"                                    : [
             [],
             {
