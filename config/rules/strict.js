@@ -290,12 +290,6 @@ const config = {
                 "severity": "error"
             }
         ],
-        "custom-property-no-outside-root"                   : [
-            true,
-            {
-                "severity": "error"
-            }
-        ],
         "custom-property-pattern"                           : [
             null,
             {
@@ -733,12 +727,6 @@ const config = {
                 "severity"            : "error"
             }
         ],
-        "selector-root-no-composition"                      : [
-            true,
-            {
-                "severity": "error"
-            }
-        ],
         "selector-type-case"                                : [
             "lower",
             {
@@ -774,12 +762,6 @@ const config = {
         ],
         "selector-list-comma-space-before"                  : [
             "never",
-            {
-                "severity": "error"
-            }
-        ],
-        "root-no-standard-properties"                       : [
-            true,
             {
                 "severity": "error"
             }
@@ -956,12 +938,6 @@ const config = {
                 "severity": "error"
             }
         ],
-        "stylelint-disable-reason"                          : [
-            "always-before",
-            {
-                "severity": "error"
-            }
-        ],
         "comment-empty-line-before"                         : [
             "always",
             {
@@ -1025,12 +1001,6 @@ const config = {
                 "severity"     : "warning"
             }
         ],
-        "no-browser-hacks"                                  : [
-            true,
-            {
-                "severity": "error"
-            }
-        ],
         "no-descending-specificity"                         : [
             true,
             {
@@ -1062,15 +1032,6 @@ const config = {
                 "severity": "error"
             }
         ],
-        "no-indistinguishable-colors"                       : [
-            true,
-            {
-                "threshold": 3,
-                "ignore"   : [],
-                "whitelist": [],
-                "severity" : "warning"
-            }
-        ],
         "no-invalid-double-slash-comments"                  : [
             true,
             {
@@ -1087,13 +1048,6 @@ const config = {
             true,
             {
                 "severity": "error"
-            }
-        ],
-        "no-unsupported-browser-features"                   : [
-            true,
-            {
-                "ignore"  : [],
-                "severity": "warning"
             }
         ]
     }

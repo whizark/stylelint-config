@@ -74,7 +74,6 @@ module.exports = {
                 "indentClosingBrace": false,
                 "severity"          : "error"
             }
-        ],
-        "no-browser-hacks"                  : null
+        ]
     }
 };
