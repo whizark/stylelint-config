@@ -197,6 +197,7 @@ module.exports = {
         "length-zero-no-unit"                               : [
             true,
             {
+                "ignore"  : [],
                 "severity": "error"
             }
         ],
