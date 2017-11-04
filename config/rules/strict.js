@@ -965,6 +965,16 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "max-nesting-depth"                                 : [
+            2,
+            {
+                "ignore"       : [
+                    "blockless-at-rules"
+                ],
+                "ignoreAtRules": [],
+                "severity"     : "warning"
+            }
+        ],
         "indentation"                                       : [
             4,
             {
@@ -988,16 +998,6 @@ module.exports = {
                 "ignore"       : [],
                 "ignorePattern": [],
                 "severity"     : "error"
-            }
-        ],
-        "max-nesting-depth"                                 : [
-            2,
-            {
-                "ignore"       : [
-                    "blockless-at-rules"
-                ],
-                "ignoreAtRules": [],
-                "severity"     : "warning"
             }
         ],
         "no-descending-specificity"                         : [
