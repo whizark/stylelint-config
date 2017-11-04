@@ -172,7 +172,8 @@ module.exports = {
         "number-max-precision"                              : [
             5,
             {
-                "severity": "error"
+                "ignoreUnits": [],
+                "severity"   : "error"
             }
         ],
         "number-no-trailing-zeros"                          : [
