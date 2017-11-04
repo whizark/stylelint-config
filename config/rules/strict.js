@@ -235,8 +235,9 @@ module.exports = {
         "value-keyword-case"                                : [
             "lower",
             {
-                "ignoreKeywords": [],
-                "severity"      : "error"
+                "ignoreProperties": [],
+                "ignoreKeywords"  : [],
+                "severity"        : "error"
             }
         ],
         "value-no-vendor-prefix"                            : [
