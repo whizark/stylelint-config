@@ -52,6 +52,12 @@ module.exports = {
                 "severity"             : "error"
             }
         ],
+        "font-family-no-missing-generic-family-keyword"     : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "font-weight-notation"                              : [
             "named-where-possible",
             {
