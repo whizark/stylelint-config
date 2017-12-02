@@ -1013,6 +1013,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "no-duplicate-at-import-rule"                       : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "no-duplicate-selectors"                            : [
             true,
             {
