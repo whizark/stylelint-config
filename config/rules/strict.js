@@ -216,8 +216,11 @@ module.exports = {
         "unit-blacklist"                                    : [
             [],
             {
-                "ignoreProperties": [],
-                "severity"        : "error"
+                "ignoreProperties"       : [],
+                "ignoreMediaFeatureNames": {
+                    "unit": []
+                },
+                "severity"               : "error"
             }
         ],
         "unit-case"                                         : [
