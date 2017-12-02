@@ -250,7 +250,8 @@ module.exports = {
         "value-no-vendor-prefix"                            : [
             true,
             {
-                "severity": "warning"
+                "ignoreValues": [],
+                "severity"    : "warning"
             }
         ],
         "value-list-comma-newline-after"                    : [
