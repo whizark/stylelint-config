@@ -37,7 +37,7 @@
         "stylelint-scss": "latest"
     },
     "peerDependencies"    : {
-        "stylelint": "~8.2.0"
+        "stylelint": "~8.3.1"
     },
     "optionalDependencies": {
         "stylelint-scss": "~2.1.0"
