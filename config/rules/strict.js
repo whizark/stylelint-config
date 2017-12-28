@@ -484,6 +484,7 @@ module.exports = {
         "block-closing-brace-empty-line-before"             : [
             "never",
             {
+                "except"  : [],
                 "severity": "error"
             }
         ],
