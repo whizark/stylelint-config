@@ -1017,7 +1017,7 @@ module.exports = {
                 "severity": "error"
             }
         ],
-        "no-duplicate-at-import-rule"                       : [
+        "no-duplicate-at-import-rules"                      : [
             true,
             {
                 "severity": "error"
