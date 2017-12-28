@@ -30,7 +30,7 @@
         "url" : "https://github.com/whizark/stylelint-config.git"
     },
     "scripts"             : {
-        "test": "stylelint --config ./index.js"
+        "test": "echo | stylelint - --config ./index.js"
     },
     "devDependencies"     : {
         "stylelint"     : "git+https://github.com/stylelint/stylelint.git#master",
