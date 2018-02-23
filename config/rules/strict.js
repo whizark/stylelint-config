@@ -588,6 +588,12 @@ module.exports = {
                 "severity"              : "error"
             }
         ],
+        "selector-combinator-blacklist"                     : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "selector-combinator-space-after"                   : [
             "always",
             {
@@ -596,6 +602,12 @@ module.exports = {
         ],
         "selector-combinator-space-before"                  : [
             "always",
+            {
+                "severity": "error"
+            }
+        ],
+        "selector-combinator-whitelist"                     : [
+            null,
             {
                 "severity": "error"
             }
