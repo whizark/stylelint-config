@@ -720,6 +720,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "selector-pseudo-element-blacklist"                 : [
+            [],
+            {
+                "severity": "error"
+            }
+        ],
         "selector-pseudo-element-case"                      : [
             "lower",
             {
@@ -737,6 +743,12 @@ module.exports = {
             {
                 "ignorePseudoElements": [],
                 "severity"            : "error"
+            }
+        ],
+        "selector-pseudo-element-whitelist"                 : [
+            null,
+            {
+                "severity": "error"
             }
         ],
         "selector-type-case"                                : [
