@@ -335,7 +335,7 @@ module.exports = {
             true,
             {
                 'ignoreProperties': [],
-                'severity'        : 'warning',
+                'severity'        : 'warning'
             }
         ],
         "property-whitelist"                                : [
