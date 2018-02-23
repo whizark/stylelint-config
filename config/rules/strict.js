@@ -334,7 +334,8 @@ module.exports = {
         "property-no-vendor-prefix"                         : [
             true,
             {
-                "severity": "warning"
+                'ignoreProperties': [],
+                'severity'        : 'warning',
             }
         ],
         "property-whitelist"                                : [
