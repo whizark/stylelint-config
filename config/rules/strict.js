@@ -661,6 +661,12 @@ module.exports = {
                 "severity": "warning"
             }
         ],
+        "selector-max-pseudo-class"                         : [
+            2,
+            {
+                "severity": "warning"
+            }
+        ],
         "selector-max-specificity"                          : [
             "0,2,0",
             {
