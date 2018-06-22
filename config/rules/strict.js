@@ -350,6 +350,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "keyframes-name-pattern"                            : [
+            "^[a-z][-_a-z0-9]*$",
+            {
+                "severity": "error"
+            }
+        ],
         "declaration-bang-space-after"                      : [
             "never",
             {
