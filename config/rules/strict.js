@@ -863,6 +863,12 @@ module.exports = {
                 "severity": "warning"
             }
         ],
+        "media-feature-name-value-whitelist"                : [
+            null,
+            {
+                "severity": "error"
+            }
+        ],
         "media-feature-name-whitelist"                      : [
             null,
             {
