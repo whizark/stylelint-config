@@ -207,6 +207,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "linebreaks"                                        : [
+            "unix",
+            {
+                "severity": "error"
+            }
+        ],
         "time-min-milliseconds"                             : [
             100,
             {
