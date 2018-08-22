@@ -438,7 +438,6 @@ module.exports = {
             true,
             {
                 "ignore"          : [
-                    "consecutive-duplicates",
                     "consecutive-duplicates-with-different-values"
                 ],
                 "ignoreProperties": [],
