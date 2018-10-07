@@ -1079,6 +1079,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "no-empty-first-line"                               : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "no-empty-source"                                   : [
             true,
             {
