@@ -716,7 +716,8 @@ module.exports = {
         "selector-no-vendor-prefix"                         : [
             true,
             {
-                "severity": "warning"
+                "ignoreSelectors": [],
+                "severity"       : "warning"
             }
         ],
         "selector-pseudo-class-blacklist"                   : [
