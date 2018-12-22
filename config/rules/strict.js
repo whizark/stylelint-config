@@ -238,8 +238,9 @@ module.exports = {
         "unit-no-unknown"                                   : [
             true,
             {
-                "ignoreUnits": [],
-                "severity"   : "error"
+                "ignoreUnits"    : [],
+                "ignoreFunctions": [],
+                "severity"       : "error"
             }
         ],
         "unit-whitelist"                                    : [
