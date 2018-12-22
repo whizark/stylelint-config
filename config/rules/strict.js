@@ -783,7 +783,8 @@ module.exports = {
         "selector-type-case"                                : [
             "lower",
             {
-                "severity": "error"
+                "ignoreTypes": [],
+                "severity"   : "error"
             }
         ],
         "selector-type-no-unknown"                          : [
