@@ -71,6 +71,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "function-calc-no-invalid"                          : [
+            true,
+            {
+                "severity": "error"
+            }
+        ],
         "function-calc-no-unspaced-operator"                : [
             true,
             {
