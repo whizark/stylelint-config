@@ -1085,7 +1085,8 @@ module.exports = {
         "no-duplicate-selectors"                            : [
             true,
             {
-                "severity": "error"
+                "disallowInList": false,
+                "severity"      : "error"
             }
         ],
         "no-empty-first-line"                               : [
