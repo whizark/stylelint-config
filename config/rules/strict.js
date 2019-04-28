@@ -988,6 +988,12 @@ module.exports = {
                 "severity": "warning"
             }
         ],
+        "at-rule-property-requirelist"                      : [
+            {},
+            {
+                "severity": "error"
+            }
+        ],
         "at-rule-semicolon-newline-after"                   : [
             "always",
             {
