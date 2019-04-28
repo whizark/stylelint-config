@@ -689,8 +689,8 @@ module.exports = {
         "selector-max-specificity"                          : [
             "0,2,0",
             {
-                "ignoreSelectorsr": [],
-                "severity"        : "warning"
+                "ignoreSelectors": [],
+                "severity"       : "warning"
             }
         ],
         "selector-max-type"                                 : [
