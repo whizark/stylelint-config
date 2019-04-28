@@ -535,6 +535,7 @@ module.exports = {
         "block-no-empty"                                    : [
             true,
             {
+                "ignore"  : [],
                 "severity": "warning"
             }
         ],
