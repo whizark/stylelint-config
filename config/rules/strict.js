@@ -1080,6 +1080,7 @@ module.exports = {
         "no-descending-specificity"                         : [
             true,
             {
+                "ignore"  : [],
                 "severity": "error"
             }
         ],
