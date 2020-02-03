@@ -6,6 +6,7 @@ node_js:
     - 10
     - 11
     - 12
+    - 13
 
 matrix:
     fast_finish: true
@@ -37,7 +38,7 @@ deploy:
       api_key:
           secure: CawcchqOmEHv/4tGcEzYjbhbXJYa2Oo0MhRH0uUD2NzDhPQslxbcjDMhOnBitZa0xy15E1MDbDSJeEWNKuvuKNrvA3AgGULTRlHy8mlRvTWyM4+h+j4h5GoHpTBaAXdbsv/tjUjQCD0frt3vbCZGDOaCMhw8LKaSMzptDrPht4YCUNztkRkCVnXRpfCDobC1FsEU6mRcuctLVgdNZUwvavChp0JcBGGibjJ8nxKwhvK0ocHCttCSIQ1aMyeUFZM8AKNBgQNRJ8DV/fMmO0fUYVbfHv6B+aBwSGOn23iW5uPgKlm8WR1fDguzc+0nyvRf0ZqGsr72goJz/feMC6uWr05sG4v1/gB5iJ5uNMGlQrJqQKxVmvITpBOErqy96Y6s2bq7qfNVsu9G6v3vBUqxgTAez89zvLpXrzH2nnuERZCG8+Vj3z3GGfAEGnj+7GXwd9iQ7AOa9xIAnSlHJ8oCLmVSJo151I7XhMGHrNsYWyWNGt0oA/qPKOJ2BTvjy6/up/7lMReeS2XvEwXtVwBZJZn4SJdSPbvxClzhE8qfUPl3ycsJ+L7UiNrbeKbdZPrupvM0VPVFJuZ8o0EfrtI5vlxSUjgxJ41fj3416x5O2StTWaL8FwhdzrW6hihSyi3f5uARZ3AvIippQCQUk/5hgXEZ5HnC89/4tkr3zGBhBLc=
       on:
-          node: 8
+          node: 13
           repo: whizark/stylelint-config
           branch: master
           tags: true
