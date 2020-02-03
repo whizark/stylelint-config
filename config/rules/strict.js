@@ -225,6 +225,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "unicode-bom"                                       : [
+            "never",
+            {
+                "severity": "error"
+            }
+        ],
         "unit-blacklist"                                    : [
             [],
             {
