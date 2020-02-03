@@ -347,6 +347,7 @@ module.exports = {
             {
                 "ignoreProperties": [],
                 "checkPrefixed"   : false,
+                "ignoreSelectors" : [],
                 "severity"        : "error"
             }
         ],
