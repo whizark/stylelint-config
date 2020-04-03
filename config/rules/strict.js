@@ -55,7 +55,8 @@ module.exports = {
         "font-family-no-missing-generic-family-keyword"     : [
             true,
             {
-                "severity": "error"
+                "ignoreFontFamilies": [],
+                "severity"          : "error"
             }
         ],
         "font-weight-notation"                              : [
