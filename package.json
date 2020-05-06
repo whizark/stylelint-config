@@ -40,6 +40,6 @@
         "stylelint": "13.3.0"
     },
     "optionalDependencies": {
-        "stylelint-scss": "3.16.0"
+        "stylelint-scss": "3.17.2"
     }
 }
