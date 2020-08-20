@@ -19,6 +19,12 @@ module.exports = {
                 "severity": "error"
             }
         ],
+        "color-function-notation"                           : [
+            "legacy",
+            {
+                "severity": "error"
+            }
+        ],
         "color-named"                                       : [
             "always-where-possible",
             {
