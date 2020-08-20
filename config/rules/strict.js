@@ -223,6 +223,7 @@ module.exports = {
         "time-min-milliseconds"                             : [
             100,
             {
+                "ignore"  : [],
                 "severity": "error"
             }
         ],
