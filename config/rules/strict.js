@@ -7,6 +7,12 @@ module.exports = {
     "ignoreFiles"    : [],
     "defaultSeverity": "error",
     "rules"          : {
+        "alpha-value-notation"                              : [
+            "number",
+            {
+                "severity": "error"
+            }
+        ],
         "hue-degree-notation"                               : [
             "number",
             {
