@@ -588,8 +588,9 @@ module.exports = {
         "block-opening-brace-space-before"                  : [
             "always-single-line",
             {
-                "ignoreAtRules": [],
-                "severity"     : "error"
+                "ignoreAtRules"  : [],
+                "ignoreSelectors": [],
+                "severity"       : "error"
             }
         ],
         "selector-attribute-brackets-space-inside"          : [
