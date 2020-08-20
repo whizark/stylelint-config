@@ -268,6 +268,7 @@ module.exports = {
             {
                 "ignoreProperties": [],
                 "ignoreKeywords"  : [],
+                'ignoreFunctions' : [],
                 "severity"        : "error"
             }
         ],
